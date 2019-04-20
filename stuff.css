@@ -1,4 +1,5 @@
-.kittyimg1 
+/*
+.kittyimg1
 {
   height: 200px;
   background: #aaa;
@@ -18,21 +19,14 @@
 
 .game
 {
-  height: 650px;
-  background: #aaa; 
+  height: 300px;
+  background: #aaa;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
 }
-
-.title
-{
-  height: 100;
-  background: rgb(168, 26, 26);
-  text-align: center;
-}
-
+*/
 
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
