@@ -42,6 +42,11 @@ class Board extends React.Component {
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
+      if (winner == 'X'){
+        incrementScore(1);
+      } else {
+        incrementScore(2);
+      }
     } else
 
     {
