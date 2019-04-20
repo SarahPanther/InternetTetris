@@ -22,15 +22,25 @@
     </div>
 </div>
 
+<!-- Variables to hold the score -->
+<script>
+  var playerOneScore = 0;
+  var playerTwoScore = 0;
+</script>
+
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col">
       <h2>Scoreboard</h2>
       <h5></h5>
-      <div class="scoreBoard">Insert scoreboard here..</div>
-      
-      <h3>Player 1</h3>
-      <div class="kittyimg1">Insert kitty picture here...</div>
+      <div class="scoreBoard">
+          <p id="player1ScoreDisplay">Player 1: 0</p>
+          <br />
+          <p id="player2ScoreDisplay">Player 2: 0</p>
+      </div>
+  
+      <h3>Kitty</h3>  
+      <div class="kittyimg1">picture of kitty here...</div>
 
     <hr class="d-sm-none">
     </div>
@@ -97,8 +107,8 @@
 
 <script src='https://unpkg.com/react@16/umd/react.development.js'></script>
 <script src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script>  
+<script  src="js/helpers.js"></script>
 <script  src="js/index.js"></script>
-
 
 
 
