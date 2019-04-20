@@ -15,8 +15,8 @@
   }
   // Resets both player's score to 0
   function resetScore() {
-    playerOneScore = 0;
-    playerTwoScore = 0;
+    document.getElementById("player1ScoreDisplay").innerHTML = "Player 1: 0";
+    document.getElementById("player2ScoreDisplay").innerHTML = "Player 2: 0";
   }
   // returns the score of player 1 or 2 depending on input
   function getScore(input) {
@@ -26,3 +26,4 @@
       return playerTwoScore;
     }
   }
+

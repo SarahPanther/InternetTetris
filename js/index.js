@@ -112,3 +112,7 @@ function calculateWinner(squares) {
   }
   return null;
 }
+
+function reset() {
+  this.setState(initialState) 
+ }
